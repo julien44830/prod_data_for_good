@@ -76,7 +76,7 @@ export default async function Footer() {
           <div className="flex flex-row items-center gap-2 md:px-2">
             <p>{t('footer.by')}</p>
             <Link href="https://animafrance.org/" target="_blank">
-              <img src="/anima-logo.png" alt="" className="w-25 " />
+              <img src="/Anima-logo.png" alt="" className="w-25 " />
             </Link>
           </div>
           <div className="flex flex-row items-center gap-2 md:px-2">

@@ -17,7 +17,7 @@ export default async function ResultsSection() {
           <ContentWithImageSection
             text_heading={t('Results.agony.title')}
             text_content={t('Results.agony.content')}
-            image_url="/chicken_header.PNG"
+            image_url="/chicken_header.png"
             image_description={t('Results.agony.image_description')}
             image_position="right"
           />
