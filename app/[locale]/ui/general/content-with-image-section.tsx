@@ -49,7 +49,7 @@ function ImageInContent({ image_url, image_description }: ImageInContentProps) {
   return (
     <div className="border-[#ff7f7f] border-2 flex justify-center items-center flex-1 md:basis-1/2">
       <Image
-        src={'/' + image_url}
+        src={image_url}
         alt={image_description}
         width={560}
         height={560}

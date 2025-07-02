@@ -113,7 +113,7 @@ const ChickenAfflictionsList = ({ t }: StepProps) => {
       <HeaderColone title={t('MethodologyPage.sufferingQuantificationSteps.step1.title')} number="1" />
       <ul className="list-none bg-white font-bold text-xs font-mono divide-y divide-[#FF7B7B] uppercase">
         <li className="flex items-center px-2 py-4 w-full gap-x-6">
-          <p className="text-2xl font-bold w-15 flex-shrink-0 text-left">33%</p>
+          <p className="text-2xl font-bold w-15 flex-shrink-0 text-left">40%</p>
           <p className="flex-1 text-left">{t('MethodologyPage.sufferingQuantificationSteps.step1.text1')}</p>
         </li>
         <li className="flex items-center px-2 py-4 w-full gap-x-6">
@@ -121,7 +121,7 @@ const ChickenAfflictionsList = ({ t }: StepProps) => {
           <p className="flex-1 text-left">{t('MethodologyPage.sufferingQuantificationSteps.step1.text2')}</p>
         </li>
         <li className="flex items-center px-2 py-4 w-full gap-x-6">
-          <p className="text-2xl font-bold w-15 flex-shrink-0 text-left">48%</p>
+          <p className="text-2xl font-bold w-15 flex-shrink-0 text-left">5,5%</p>
           <p className="flex-1 text-left">{t('MethodologyPage.sufferingQuantificationSteps.step1.text3')}</p>
         </li>
         <li className="flex items-center px-2 py-4 w-full gap-x-6">
@@ -182,17 +182,17 @@ const AfflictionSufferingQuantifier = ({ t }: StepProps) => {
       />
       <SufferingQuantificationTable
         title={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc2.text')}
-        agony={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.agony')}
-        pain={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.pain')}
-        suffering={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.suffering')}
-        discomfort={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.discomfort')}
+        agony={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc2.agony')}
+        pain={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc2.pain')}
+        suffering={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc2.suffering')}
+        discomfort={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc2.discomfort')}
       />
       <SufferingQuantificationTable
         title={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc3.text')}
-        agony={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.agony')}
-        pain={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.pain')}
-        suffering={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.suffering')}
-        discomfort={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc1.discomfort')}
+        agony={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc3.agony')}
+        pain={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc3.pain')}
+        suffering={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc3.suffering')}
+        discomfort={t('MethodologyPage.sufferingQuantificationSteps.step2.bloc3.discomfort')}
       />
       <div className="flex items-center px-2 py-4 w-full gap-x-6">
         <p className="flex-1 text-left  font-bold text-xs font-mono">
@@ -247,7 +247,7 @@ const AverageSufferingSummary = ({ t }: StepProps) => {
       <HeaderColone title={t('MethodologyPage.sufferingQuantificationSteps.step3.title')} number="3" />
       <SynteseSurffering
         title={t('MethodologyPage.sufferingQuantificationSteps.step3.bloc1.title')}
-        percent="33% "
+        percent="40% "
         text={t('MethodologyPage.sufferingQuantificationSteps.step3.text1')}
         agony={t('MethodologyPage.sufferingQuantificationSteps.step3.bloc1.agony')}
         pain={t('MethodologyPage.sufferingQuantificationSteps.step3.bloc1.pain')}
@@ -267,7 +267,7 @@ const AverageSufferingSummary = ({ t }: StepProps) => {
       <div className="bg-[#E7E4FF] text-center text-3xl font-extrabold">+</div>
       <SynteseSurffering
         title={t('MethodologyPage.sufferingQuantificationSteps.step3.bloc3.title')}
-        percent="48% "
+        percent="5,5%"
         text={t('MethodologyPage.sufferingQuantificationSteps.step3.text1')}
         agony={t('MethodologyPage.sufferingQuantificationSteps.step3.bloc3.agony')}
         pain={t('MethodologyPage.sufferingQuantificationSteps.step3.bloc3.pain')}

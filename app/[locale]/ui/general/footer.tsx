@@ -12,7 +12,7 @@ export default async function Footer() {
       <div className="grid grid-cols-2 md:grid-cols-3 py-4 md:py-0 px-6  bg-white text-[#3b0a0a] text-sm ">
         <div className="flex flex-col gap-3">
           <Link href="https://animafrance.org/" target="_blank" className="w-fit">
-            <img src="/anima-logo.png" alt="" className="w-35 h-[35px] " />
+            <img src="/Anima-logo.png" alt="" className="w-35 h-[35px] " />
           </Link>
           <Link
             target="_blank"
